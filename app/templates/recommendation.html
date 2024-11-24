@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Recommendation System</title>
+    
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link to Custom CSS (if you have custom styles) -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Grocery Recommendation System</h1>
+        
+        <!-- Button to Go to Restocking Data -->
+        <div class="text-center mt-3">
+            <button class="btn btn-primary" onclick="window.location.href='/restocking'">Go to Restocking Data</button>
+        </div>
+
+        <!-- Recommendation Form -->
+        <div class="mt-5">
+            <form id="recommendForm">
+                <div class="form-group">
+                    <label for="product">Select a Product:</label>
+                    <select id="product" name="product" class="form-control">
+                        {% for product in products %}
+                            <option value="{{ product }}">{{ product }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-success mt-3">Get Recommendations</button>
+            </form>
+        </div>
+
+        <!-- Recommendations Section -->
+        <div id="recommendations" class="mt-5">
+            <h2>Recommendations:</h2>
+            <ul id="recommendationList" class="list-group"></ul>
+        </div>
+    </div>
+
+    <!-- Link to Custom JavaScript -->
+    <script src="/static/script.js"></script>
+    
+    <!-- Optional: Link to Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

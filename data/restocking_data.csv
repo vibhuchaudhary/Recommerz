@@ -1,0 +1,55 @@
+UserID,ProductID,Quantity,OrderID,Category,PurchaseDate
+U001,Fresh_Apples,2,ORD1001,fresh fruits,2024-11-01
+U001,Fresh_Apples,1,ORD1002,fresh fruits,2024-10-01
+U001,Fresh_Apples,1,ORD1003,fresh fruits,2024-09-15
+U002,Fresh_Bananas,3,ORD1004,fresh fruits,2024-11-02
+U002,Fresh_Bananas,2,ORD1005,fresh fruits,2024-10-05
+U002,Fresh_Bananas,4,ORD1006,fresh fruits,2024-09-20
+U003,Fresh_Oranges,1,ORD1007,fresh fruits,2024-11-03
+U003,Fresh_Oranges,2,ORD1008,fresh fruits,2024-10-01
+U003,Fresh_Oranges,3,ORD1009,fresh fruits,2024-09-05
+U004,Fresh_Carrots,2,ORD1010,fresh vegetables,2024-11-01
+U004,Fresh_Carrots,3,ORD1011,fresh vegetables,2024-10-10
+U004,Fresh_Carrots,1,ORD1012,fresh vegetables,2024-09-15
+U005,Fresh_Spinach,3,ORD1013,fresh vegetables,2024-11-02
+U005,Fresh_Spinach,2,ORD1014,fresh vegetables,2024-10-12
+U005,Fresh_Spinach,1,ORD1015,fresh vegetables,2024-09-20
+U006,Fresh_Tomatoes,1,ORD1016,fresh vegetables,2024-11-03
+U006,Fresh_Tomatoes,2,ORD1017,fresh vegetables,2024-10-15
+U006,Fresh_Tomatoes,3,ORD1018,fresh vegetables,2024-09-10
+U007,Whole_Milk,2,ORD1019,milk,2024-11-01
+U007,Whole_Milk,3,ORD1020,milk,2024-10-11
+U007,Whole_Milk,1,ORD1021,milk,2024-09-21
+U008,Skim_Milk,3,ORD1022,milk,2024-11-02
+U008,Skim_Milk,2,ORD1023,milk,2024-10-05
+U008,Skim_Milk,4,ORD1024,milk,2024-09-30
+U009,Almond_Milk,1,ORD1025,milk,2024-11-03
+U009,Almond_Milk,2,ORD1026,milk,2024-10-03
+U009,Almond_Milk,3,ORD1027,milk,2024-09-12
+U010,Cheddar_Cheese,2,ORD1028,packaged cheese,2024-11-04
+U010,Cheddar_Cheese,3,ORD1029,packaged cheese,2024-10-04
+U010,Cheddar_Cheese,1,ORD1030,packaged cheese,2024-09-10
+U011,Mozzarella_Cheese,3,ORD1031,packaged cheese,2024-11-05
+U011,Mozzarella_Cheese,2,ORD1032,packaged cheese,2024-10-08
+U011,Mozzarella_Cheese,4,ORD1033,packaged cheese,2024-09-18
+U012,Swiss_Cheese,1,ORD1034,packaged cheese,2024-11-06
+U012,Swiss_Cheese,2,ORD1035,packaged cheese,2024-10-09
+U012,Swiss_Cheese,3,ORD1036,packaged cheese,2024-09-19
+U013,White_Bread,2,ORD1037,bread,2024-11-04
+U013,White_Bread,1,ORD1038,bread,2024-10-02
+U013,White_Bread,3,ORD1039,bread,2024-09-25
+U014,Wheat_Bread,3,ORD1040,bread,2024-11-05
+U014,Wheat_Bread,2,ORD1041,bread,2024-10-06
+U014,Wheat_Bread,1,ORD1042,bread,2024-09-27
+U015,Sourdough_Bread,1,ORD1043,bread,2024-11-06
+U015,Sourdough_Bread,2,ORD1044,bread,2024-10-07
+U015,Sourdough_Bread,3,ORD1045,bread,2024-09-18
+U016,Ground_Beef,2,ORD1046,meat counter,2024-11-07
+U016,Ground_Beef,3,ORD1047,meat counter,2024-10-08
+U016,Ground_Beef,1,ORD1048,meat counter,2024-09-10
+U017,Ribeye_Steak,3,ORD1049,meat counter,2024-11-08
+U017,Ribeye_Steak,2,ORD1050,meat counter,2024-10-04
+U017,Ribeye_Steak,1,ORD1051,meat counter,2024-09-15
+U018,Pork_Chops,1,ORD1052,meat counter,2024-11-09
+U018,Pork_Chops,2,ORD1053,meat counter,2024-10-11
+U018,Pork_Chops,3,ORD1054,meat counter,2024-09-12
