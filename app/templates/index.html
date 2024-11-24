@@ -3,26 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grocery Recommendation System</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <title>Home Page</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Grocery Recommendation System</h1>
-        <form id="recommendForm">
-            <label for="product">Select a Product:</label>
-            <select id="product" name="product">
-                {% for product in products %}
-                    <option value="{{ product }}">{{ product }}</option>
-                {% endfor %}
-            </select>
-            <button type="submit">Get Recommendations</button>
-        </form>
-        <div id="recommendations">
-            <h2>Recommendations:</h2>
-            <ul id="recommendationList"></ul>
+    <div class="container mt-5">
+        <!-- Page Header -->
+        <div class="text-center">
+            <h1>Welcome to Recommerz</h1>
+            <p class="lead">Your Personal Recommendation and Restocking System</p>
+        </div>
+
+        <!-- Navigation buttons -->
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-4">
+                <a href="/restocking" class="btn btn-primary btn-block">View Restocking Data</a>
+            </div>
+            <div class="col-md-4 mt-2">
+                <a href="/recommendations" class="btn btn-success btn-block">View Recommendations</a>
+            </div>
+        </div>
+        
+        <!-- Footer (Optional) -->
+        <div class="text-center mt-5">
+            <footer>
+                <p>&copy; 2024 Recommerz | All rights reserved</p>
+            </footer>
         </div>
     </div>
-    <script src="/static/script.js"></script>
+
+    <!-- Link to Bootstrap JS and dependencies (Optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
