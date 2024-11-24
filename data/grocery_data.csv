@@ -1,0 +1,101 @@
+UserID,ProductID,Quantity,OrderID,Category
+U001,Fresh_Apples,2,ORD1001,fresh fruits
+U002,Fresh_Bananas,3,ORD1002,fresh fruits
+U003,Fresh_Oranges,1,ORD1003,fresh fruits
+U004,Fresh_Carrots,2,ORD1004,fresh vegetables
+U005,Fresh_Spinach,3,ORD1005,fresh vegetables
+U006,Fresh_Tomatoes,1,ORD1006,fresh vegetables
+U007,Whole_Milk,2,ORD1007,milk
+U008,Skim_Milk,3,ORD1008,milk
+U009,Almond_Milk,1,ORD1009,milk
+U010,Cheddar_Cheese,2,ORD1010,packaged cheese
+U011,Mozzarella_Cheese,3,ORD1011,packaged cheese
+U012,Swiss_Cheese,1,ORD1012,packaged cheese
+U013,White_Bread,2,ORD1013,bread
+U014,Wheat_Bread,3,ORD1014,bread
+U015,Sourdough_Bread,1,ORD1015,bread
+U016,Ground_Beef,2,ORD1016,meat counter
+U017,Ribeye_Steak,3,ORD1017,meat counter
+U018,Pork_Chops,1,ORD1018,meat counter
+U019,Chicken_Breast,2,ORD1019,poultry counter
+U020,Turkey_Breast,3,ORD1020,poultry counter
+U021,Chicken_Thighs,1,ORD1021,poultry counter
+U022,Greek_Yogurt,2,ORD1022,yogurt
+U023,Plain_Yogurt,3,ORD1023,yogurt
+U024,Vanilla_Yogurt,1,ORD1024,yogurt
+U025,Brown_Eggs,2,ORD1025,eggs
+U026,White_Eggs,3,ORD1026,eggs
+U027,Organic_Eggs,1,ORD1027,eggs
+U028,Vanilla_Ice_Cream,2,ORD1028,ice cream ice
+U029,Chocolate_Ice_Cream,3,ORD1029,ice cream ice
+U030,Strawberry_Ice_Cream,1,ORD1030,ice cream ice
+U031,Wheat_Pasta,2,ORD1031,dry pasta
+U032,Penne_Pasta,3,ORD1032,dry pasta
+U033,Spaghetti_Pasta,1,ORD1033,dry pasta
+U034,Marinara_Sauce,2,ORD1034,pasta sauce
+U035,Alfredo_Sauce,3,ORD1035,pasta sauce
+U036,Pesto_Sauce,1,ORD1036,pasta sauce
+U037,Potato_Chips,2,ORD1037,chips pretzels
+U038,Tortilla_Chips,3,ORD1038,chips pretzels
+U039,Pretzels,1,ORD1039,chips pretzels
+U040,Cola_Soda,2,ORD1040,soft drinks
+U041,Lemon_Soda,3,ORD1041,soft drinks
+U042,Root_Beer,1,ORD1042,soft drinks
+U043,Spring_Water,2,ORD1043,water seltzer sparkling water
+U044,Sparkling_Water,3,ORD1044,water seltzer sparkling water
+U045,Mineral_Water,1,ORD1045,water seltzer sparkling water
+U046,Black_Tea,2,ORD1046,tea
+U047,Green_Tea,3,ORD1047,tea
+U048,Herbal_Tea,1,ORD1048,tea
+U049,Ground_Coffee,2,ORD1049,coffee
+U050,Coffee_Beans,3,ORD1050,coffee
+U051,Instant_Coffee,1,ORD1051,coffee
+U052,Chicken_Soup,2,ORD1052,prepared soups salads
+U053,Tomato_Soup,3,ORD1053,prepared soups salads
+U054,Vegetable_Soup,1,ORD1054,prepared soups salads
+U055,Mixed_Nuts,2,ORD1055,nuts seeds dried fruit
+U056,Almonds,3,ORD1056,nuts seeds dried fruit
+U057,Cashews,1,ORD1057,nuts seeds dried fruit
+U058,Frozen_Pizza,2,ORD1058,frozen pizza
+U059,Pizza_Rolls,3,ORD1059,frozen pizza
+U060,Pizza_Bagels,1,ORD1060,frozen pizza
+U061,Paper_Towels,2,ORD1061,paper goods
+U062,Toilet_Paper,3,ORD1062,paper goods
+U063,Facial_Tissues,1,ORD1063,paper goods
+U064,Laundry_Detergent,2,ORD1064,laundry
+U065,Fabric_Softener,3,ORD1065,laundry
+U066,Bleach,1,ORD1066,laundry
+U067,Dish_Soap,2,ORD1067,dish detergents
+U068,Dishwasher_Pods,3,ORD1068,dish detergents
+U069,Rinse_Aid,1,ORD1069,dish detergents
+U070,All_Purpose_Cleaner,2,ORD1070,cleaning products
+U071,Glass_Cleaner,3,ORD1071,cleaning products
+U072,Floor_Cleaner,1,ORD1072,cleaning products
+U073,Shampoo,2,ORD1073,hair care
+U074,Conditioner,3,ORD1074,hair care
+U075,Hair_Gel,1,ORD1075,hair care
+U076,Body_Wash,2,ORD1076,body lotions soap
+U077,Hand_Soap,3,ORD1077,body lotions soap
+U078,Body_Lotion,1,ORD1078,body lotions soap
+U079,Toothpaste,2,ORD1079,oral hygiene
+U080,Mouthwash,3,ORD1080,oral hygiene
+U081,Dental_Floss,1,ORD1081,oral hygiene
+U082,Cold_Medicine,2,ORD1082,cold flu allergy
+U083,Allergy_Medicine,3,ORD1083,cold flu allergy
+U084,Cough_Drops,1,ORD1084,cold flu allergy
+U085,Energy_Bar,2,ORD1085,energy granola bars
+U086,Protein_Bar,3,ORD1086,energy granola bars
+U087,Granola_Bar,1,ORD1087,energy granola bars
+U088,White_Rice,2,ORD1088,grains rice dried goods
+U089,Brown_Rice,3,ORD1089,grains rice dried goods
+U090,Quinoa,1,ORD1090,grains rice dried goods
+U091,Olive_Oil,2,ORD1091,oils vinegars
+U092,Vegetable_Oil,3,ORD1092,oils vinegars
+U093,Balsamic_Vinegar,1,ORD1093,oils vinegars
+U094,Salt,2,ORD1094,spices seasonings
+U095,Black_Pepper,3,ORD1095,spices seasonings
+U096,Garlic_Powder,1,ORD1096,spices seasonings
+U097,Canned_Tuna,2,ORD1097,canned meat seafood
+U098,Canned_Salmon,3,ORD1098,canned meat seafood
+U099,Canned_Chicken,1,ORD1099,canned meat seafood
+U100,Canned_Corn,2,ORD1100,canned jarred vegetables
