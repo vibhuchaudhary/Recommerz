@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Recommendations</title>
+</head>
+<body>
+    <h1>Get Smart Recommendations</h1>
+
+    <!-- Form to input user_id -->
+    <form action="/" method="post">
+        <label for="user_id">Enter User ID:</label>
+        <input type="text" id="user_id" name="user_id" required>
+        <button type="submit">Get Recommendations</button>
+    </form>
+
+    {% if recommendations %}
+        <h2>Recommendations for User ID: {{ user_id }}</h2>
+        <ul>
+            {% for product in recommendations %}
+                <li>Product ID: {{ product }}</li>
+            {% endfor %}
+        </ul>
+    {% elif user_id is not none %}
+        <p>No recommendations found for User ID: {{ user_id }}</p>
+    {% endif %}
+</body>
+</html>
