@@ -1,55 +1,201 @@
 UserID,ProductID,Quantity,OrderID,Category,PurchaseDate
-U001,Fresh_Apples,2,ORD1001,fresh fruits,2024-11-01
-U001,Fresh_Apples,1,ORD1002,fresh fruits,2024-10-01
-U001,Fresh_Apples,1,ORD1003,fresh fruits,2024-09-15
-U002,Fresh_Bananas,3,ORD1004,fresh fruits,2024-11-02
-U002,Fresh_Bananas,2,ORD1005,fresh fruits,2024-10-05
-U002,Fresh_Bananas,4,ORD1006,fresh fruits,2024-09-20
-U003,Fresh_Oranges,1,ORD1007,fresh fruits,2024-11-03
-U003,Fresh_Oranges,2,ORD1008,fresh fruits,2024-10-01
-U003,Fresh_Oranges,3,ORD1009,fresh fruits,2024-09-05
-U004,Fresh_Carrots,2,ORD1010,fresh vegetables,2024-11-01
-U004,Fresh_Carrots,3,ORD1011,fresh vegetables,2024-10-10
-U004,Fresh_Carrots,1,ORD1012,fresh vegetables,2024-09-15
-U005,Fresh_Spinach,3,ORD1013,fresh vegetables,2024-11-02
-U005,Fresh_Spinach,2,ORD1014,fresh vegetables,2024-10-12
-U005,Fresh_Spinach,1,ORD1015,fresh vegetables,2024-09-20
-U006,Fresh_Tomatoes,1,ORD1016,fresh vegetables,2024-11-03
-U006,Fresh_Tomatoes,2,ORD1017,fresh vegetables,2024-10-15
-U006,Fresh_Tomatoes,3,ORD1018,fresh vegetables,2024-09-10
-U007,Whole_Milk,2,ORD1019,milk,2024-11-01
-U007,Whole_Milk,3,ORD1020,milk,2024-10-11
-U007,Whole_Milk,1,ORD1021,milk,2024-09-21
-U008,Skim_Milk,3,ORD1022,milk,2024-11-02
-U008,Skim_Milk,2,ORD1023,milk,2024-10-05
-U008,Skim_Milk,4,ORD1024,milk,2024-09-30
-U009,Almond_Milk,1,ORD1025,milk,2024-11-03
-U009,Almond_Milk,2,ORD1026,milk,2024-10-03
-U009,Almond_Milk,3,ORD1027,milk,2024-09-12
-U010,Cheddar_Cheese,2,ORD1028,packaged cheese,2024-11-04
-U010,Cheddar_Cheese,3,ORD1029,packaged cheese,2024-10-04
-U010,Cheddar_Cheese,1,ORD1030,packaged cheese,2024-09-10
-U011,Mozzarella_Cheese,3,ORD1031,packaged cheese,2024-11-05
-U011,Mozzarella_Cheese,2,ORD1032,packaged cheese,2024-10-08
-U011,Mozzarella_Cheese,4,ORD1033,packaged cheese,2024-09-18
-U012,Swiss_Cheese,1,ORD1034,packaged cheese,2024-11-06
-U012,Swiss_Cheese,2,ORD1035,packaged cheese,2024-10-09
-U012,Swiss_Cheese,3,ORD1036,packaged cheese,2024-09-19
-U013,White_Bread,2,ORD1037,bread,2024-11-04
-U013,White_Bread,1,ORD1038,bread,2024-10-02
-U013,White_Bread,3,ORD1039,bread,2024-09-25
-U014,Wheat_Bread,3,ORD1040,bread,2024-11-05
-U014,Wheat_Bread,2,ORD1041,bread,2024-10-06
-U014,Wheat_Bread,1,ORD1042,bread,2024-09-27
-U015,Sourdough_Bread,1,ORD1043,bread,2024-11-06
-U015,Sourdough_Bread,2,ORD1044,bread,2024-10-07
-U015,Sourdough_Bread,3,ORD1045,bread,2024-09-18
-U016,Ground_Beef,2,ORD1046,meat counter,2024-11-07
-U016,Ground_Beef,3,ORD1047,meat counter,2024-10-08
-U016,Ground_Beef,1,ORD1048,meat counter,2024-09-10
-U017,Ribeye_Steak,3,ORD1049,meat counter,2024-11-08
-U017,Ribeye_Steak,2,ORD1050,meat counter,2024-10-04
-U017,Ribeye_Steak,1,ORD1051,meat counter,2024-09-15
-U018,Pork_Chops,1,ORD1052,meat counter,2024-11-09
-U018,Pork_Chops,2,ORD1053,meat counter,2024-10-11
-U018,Pork_Chops,3,ORD1054,meat counter,2024-09-12
+U010,White_Bread,15,O4866,bread,2024-10-01
+U027,Frozen_Fish,26,O2417,frozen foods,2024-09-20
+U016,Fresh_Peaches,8,O9955,fresh fruits,2024-03-10
+U026,White_Bread,33,O8706,bread,2024-01-18
+U005,Bacon,21,O4276,meat counter,2024-06-13
+U021,Pork_Chops,46,O4560,meat counter,2024-08-30
+U012,Oat_Milk,7,O1111,milk,2023-12-05
+U022,Baguette,21,O4021,bread,2024-05-03
+U030,Wheat_Bread,27,O4113,bread,2024-09-01
+U013,Flour,5,O7275,pantry staples,2024-01-31
+U013,Fresh_Tomatoes,15,O4096,fresh vegetables,2024-09-12
+U020,Flavored_Yogurt,38,O1128,yogurt,2024-09-10
+U023,Fresh_Broccoli,4,O3529,fresh vegetables,2024-02-01
+U013,Frozen_Pizza,13,O2663,frozen foods,2024-02-06
+U009,Rice,40,O4970,pantry staples,2024-07-15
+U016,Turkey_Breast,5,O3405,poultry counter,2024-05-10
+U017,Baguette,23,O2893,bread,2024-09-28
+U016,Feta_Cheese,5,O8690,packaged cheese,2024-01-23
+U016,Fresh_Broccoli,48,O1646,fresh vegetables,2024-03-03
+U025,Fresh_Lettuce,50,O9171,fresh vegetables,2024-04-13
+U007,Turkey_Breast,11,O1839,poultry counter,2024-01-04
+U002,Parmesan_Cheese,25,O7076,packaged cheese,2024-06-12
+U010,Chicken_Breast,30,O6406,poultry counter,2024-01-18
+U015,Gouda_Cheese,30,O7014,packaged cheese,2024-04-08
+U026,Flavored_Yogurt,47,O7936,yogurt,2024-10-01
+U001,Sugar,28,O3067,pantry staples,2024-02-11
+U010,Ribeye_Steak,31,O6894,meat counter,2024-09-06
+U027,Mozzarella_Cheese,32,O9268,packaged cheese,2024-04-17
+U024,Feta_Cheese,25,O6172,packaged cheese,2023-12-30
+U015,Rice,36,O1479,pantry staples,2024-01-12
+U010,White_Bread,43,O9052,bread,2024-08-12
+U016,Wheat_Bread,4,O1217,bread,2023-11-29
+U004,Duck_Breast,31,O6071,poultry counter,2024-10-11
+U032,Chicken_Breast,30,O4523,poultry counter,2024-05-02
+U023,Lactose_Free_Milk,33,O9649,milk,2024-08-27
+U031,Flour,12,O1600,pantry staples,2023-12-06
+U004,Chicken_Breast,27,O9334,poultry counter,2024-02-05
+U005,Turkey_Breast,37,O1824,poultry counter,2024-10-02
+U011,Whole_Milk,44,O7421,milk,2024-03-28
+U022,Chicken_Breast,29,O5490,meat counter,2024-05-07
+U030,Rice,25,O8443,pantry staples,2024-06-01
+U031,Olive_Oil,44,O4516,pantry staples,2023-12-17
+U008,Fresh_Oranges,31,O2462,fresh fruits,2024-09-15
+U008,Almond_Milk,2,O8191,milk,2024-06-25
+U032,Olive_Oil,17,O6248,pantry staples,2024-04-26
+U018,Frozen_Pizza,9,O1683,frozen foods,2024-11-23
+U011,Turkey_Breast,47,O7920,meat counter,2024-07-08
+U010,Fresh_Bananas,45,O3551,fresh fruits,2024-11-09
+U032,Bacon,30,O9257,meat counter,2024-03-02
+U024,Fresh_Blueberries,37,O2752,fresh fruits,2024-03-30
+U015,Fresh_Blueberries,28,O9582,fresh fruits,2024-01-05
+U032,Fresh_Peaches,33,O2678,fresh fruits,2024-11-01
+U013,Blue_Cheese,38,O5473,packaged cheese,2024-07-12
+U016,Mozzarella_Cheese,48,O4363,packaged cheese,2024-11-26
+U004,Frozen_Pizza,1,O6088,frozen foods,2024-02-01
+U027,Canned_Tomatoes,32,O1213,pantry staples,2024-10-19
+U012,Ice_Cream,39,O2724,frozen foods,2024-11-02
+U005,Fresh_Peppers,4,O4866,fresh vegetables,2024-02-07
+U023,Frozen_Pizza,4,O2793,frozen foods,2024-09-11
+U028,Salt,18,O6544,pantry staples,2024-01-23
+U018,Lamb_Chops,19,O3687,meat counter,2024-05-29
+U020,Skim_Milk,2,O3288,milk,2024-11-01
+U032,Salt,49,O6511,pantry staples,2024-07-18
+U013,Fresh_Mangoes,39,O4090,fresh fruits,2024-10-15
+U010,Greek_Yogurt,36,O4322,yogurt,2024-09-21
+U017,Olive_Oil,47,O8955,pantry staples,2024-04-23
+U019,Baguette,1,O5192,bread,2023-11-30
+U007,Sugar,47,O5630,pantry staples,2024-08-30
+U014,Fresh_Carrots,34,O2464,fresh vegetables,2023-12-24
+U025,Parmesan_Cheese,43,O1668,packaged cheese,2024-10-21
+U024,Baguette,35,O2198,bread,2023-12-31
+U011,Ciabatta,37,O1218,bread,2024-04-20
+U028,Chicken_Breast,15,O3204,poultry counter,2024-04-08
+U026,Bacon,20,O6082,meat counter,2023-12-06
+U021,Fresh_Apples,45,O1013,fresh fruits,2024-10-28
+U029,Flavored_Yogurt,1,O4717,yogurt,2024-11-07
+U031,Fresh_Spinach,49,O3431,fresh vegetables,2024-02-21
+U014,Olive_Oil,6,O5466,pantry staples,2024-10-20
+U032,Fresh_Lettuce,17,O1247,fresh vegetables,2024-07-28
+U003,Cheddar_Cheese,47,O7291,packaged cheese,2023-12-26
+U030,Olive_Oil,31,O6406,pantry staples,2023-11-29
+U001,Gouda_Cheese,19,O6304,packaged cheese,2024-01-14
+U002,Frozen_Chicken,14,O1816,frozen foods,2024-09-12
+U031,Rice,17,O9593,pantry staples,2024-10-24
+U001,Plain_Yogurt,23,O7650,yogurt,2023-12-26
+U019,Soy_Milk,43,O3358,milk,2023-12-09
+U003,Sugar,48,O6018,pantry staples,2024-10-10
+U017,Cheddar_Cheese,48,O6549,packaged cheese,2024-03-22
+U023,Low_Fat_Yogurt,28,O1474,yogurt,2024-04-10
+U029,Lactose_Free_Milk,26,O4257,milk,2024-08-14
+U009,Ciabatta,27,O7556,bread,2024-08-02
+U010,Organic_Yogurt,17,O3727,yogurt,2024-07-15
+U004,Coconut_Milk,16,O6777,milk,2024-06-15
+U008,Mozzarella_Cheese,15,O2672,packaged cheese,2024-09-28
+U007,Multigrain_Bread,28,O5042,bread,2024-05-23
+U007,Rye_Bread,28,O1610,bread,2024-08-24
+U001,Rye_Bread,48,O2106,bread,2024-07-23
+U016,Rice,43,O5234,pantry staples,2024-07-19
+U031,Whole_Chicken,34,O9914,poultry counter,2024-05-22
+U020,Turkey_Breast,37,O2769,meat counter,2024-07-30
+U020,Oat_Milk,48,O7807,milk,2024-10-01
+U030,Plain_Yogurt,45,O7859,yogurt,2024-07-03
+U010,Whole_Milk,9,O7471,milk,2024-07-03
+U022,Lactose_Free_Milk,41,O7222,milk,2024-09-27
+U027,Skim_Milk,3,O3836,milk,2024-05-31
+U031,Chicken_Breast,14,O1107,poultry counter,2024-08-28
+U026,Mozzarella_Cheese,45,O8710,packaged cheese,2024-10-20
+U018,Fresh_Peaches,48,O4167,fresh fruits,2024-01-01
+U001,Cheddar_Cheese,42,O6890,packaged cheese,2024-08-07
+U026,Fresh_Tomatoes,32,O7216,fresh vegetables,2024-01-05
+U004,Blue_Cheese,21,O7967,packaged cheese,2024-09-11
+U013,Fresh_Oranges,28,O9723,fresh fruits,2024-03-17
+U005,Coconut_Milk,34,O3802,milk,2023-12-06
+U032,Turkey_Breast,45,O4941,poultry counter,2024-03-23
+U010,Coconut_Milk,20,O2042,milk,2024-10-29
+U032,Whole_Chicken,5,O6368,poultry counter,2024-06-09
+U001,Turkey_Breast,34,O3934,poultry counter,2023-12-16
+U007,Ground_Beef,3,O5017,meat counter,2024-04-10
+U011,Pasta,44,O8067,pantry staples,2024-09-09
+U019,Soy_Milk,9,O6732,milk,2024-09-20
+U025,Lactose_Free_Milk,8,O3313,milk,2024-02-28
+U022,Pasta,7,O2159,pantry staples,2024-03-22
+U015,Fresh_Tomatoes,50,O4227,fresh vegetables,2024-01-07
+U030,Frozen_Pizza,11,O6832,frozen foods,2024-07-19
+U011,Frozen_Pizza,47,O6620,frozen foods,2024-11-09
+U033,Flavored_Yogurt,29,O1332,yogurt,2024-09-12
+U016,Feta_Cheese,5,O7840,packaged cheese,2024-05-20
+U033,Fresh_Lettuce,12,O3051,fresh vegetables,2024-02-15
+U009,Oat_Milk,18,O4893,milk,2023-12-31
+U020,Greek_Yogurt,22,O4803,yogurt,2024-06-10
+U028,Greek_Yogurt,39,O8659,yogurt,2024-03-23
+U021,Fresh_Peppers,32,O7452,fresh vegetables,2024-09-28
+U028,Swiss_Cheese,8,O6183,packaged cheese,2024-08-31
+U010,Oat_Milk,48,O3253,milk,2024-05-14
+U019,Lamb_Chops,21,O2743,meat counter,2024-11-25
+U026,Olive_Oil,30,O4892,pantry staples,2024-04-16
+U003,Coconut_Milk,24,O6665,milk,2024-04-29
+U013,Sugar,7,O9841,pantry staples,2024-07-06
+U021,Frozen_Fish,9,O5265,frozen foods,2023-12-05
+U005,Low_Fat_Yogurt,9,O3011,yogurt,2024-08-05
+U010,Duck_Breast,25,O7433,poultry counter,2024-09-09
+U023,Flour,27,O2050,pantry staples,2024-10-13
+U013,Ice_Cream,16,O5812,frozen foods,2024-11-17
+U023,Flavored_Yogurt,34,O1456,yogurt,2024-09-22
+U010,White_Bread,8,O2382,bread,2024-09-24
+U004,Bacon,48,O6904,meat counter,2024-06-05
+U020,Parmesan_Cheese,46,O3191,packaged cheese,2024-10-05
+U033,Organic_Yogurt,36,O3461,yogurt,2024-07-19
+U001,Sourdough_Bread,40,O7758,bread,2024-09-27
+U030,Salt,21,O8798,pantry staples,2024-03-05
+U024,Duck_Breast,49,O9650,poultry counter,2023-12-31
+U030,Wheat_Bread,22,O7480,bread,2024-02-08
+U013,Sourdough_Bread,42,O6104,bread,2024-03-25
+U012,Whole_Chicken,9,O2636,poultry counter,2024-10-24
+U001,Fresh_Strawberries,23,O2813,fresh fruits,2024-11-24
+U010,Duck_Breast,4,O2859,poultry counter,2024-05-17
+U024,Ground_Beef,9,O1839,meat counter,2024-11-09
+U026,Multigrain_Bread,4,O1371,bread,2024-11-02
+U008,Low_Fat_Yogurt,28,O1072,yogurt,2024-10-14
+U005,Pasta,34,O6410,pantry staples,2024-10-04
+U016,Fresh_Kale,50,O4128,fresh vegetables,2024-10-08
+U013,Skim_Milk,6,O2813,milk,2023-12-06
+U028,Fresh_Mangoes,7,O4884,fresh fruits,2024-02-03
+U009,Fresh_Strawberries,1,O6094,fresh fruits,2024-04-09
+U012,Chicken_Breast,38,O9953,poultry counter,2024-01-10
+U007,Fresh_Mangoes,7,O4454,fresh fruits,2024-07-26
+U016,Ciabatta,35,O7159,bread,2024-05-26
+U020,Ice_Cream,50,O3087,frozen foods,2024-07-16
+U006,Mozzarella_Cheese,43,O2249,packaged cheese,2024-05-22
+U028,Organic_Yogurt,43,O3262,yogurt,2024-10-28
+U008,Sourdough_Bread,43,O2323,bread,2024-06-11
+U017,Frozen_Pizza,21,O5498,frozen foods,2024-01-21
+U022,Coconut_Milk,42,O7520,milk,2024-02-23
+U023,Frozen_Vegetables,22,O1473,frozen foods,2024-09-07
+U010,Turkey_Breast,3,O2622,meat counter,2024-08-17
+U029,Bacon,25,O6314,meat counter,2024-05-04
+U003,Blue_Cheese,39,O7558,packaged cheese,2023-11-27
+U019,Mozzarella_Cheese,19,O9215,packaged cheese,2024-10-03
+U026,Chicken_Breast,50,O1777,meat counter,2024-10-15
+U022,Greek_Yogurt,31,O9046,yogurt,2024-05-04
+U031,Fresh_Tomatoes,49,O5407,fresh vegetables,2024-10-08
+U004,Fresh_Grapes,44,O8970,fresh fruits,2024-05-24
+U020,Turkey_Breast,49,O9173,poultry counter,2024-07-23
+U024,Fresh_Peppers,50,O6221,fresh vegetables,2024-07-27
+U023,Ice_Cream,16,O7919,frozen foods,2024-07-20
+U002,Flavored_Yogurt,40,O2533,yogurt,2024-07-31
+U014,Turkey_Breast,20,O8217,meat counter,2024-11-09
+U014,Turkey_Breast,20,O6992,poultry counter,2024-08-24
+U026,Low_Fat_Yogurt,13,O8848,yogurt,2024-08-01
+U011,Parmesan_Cheese,41,O1709,packaged cheese,2024-02-20
+U031,Lactose_Free_Milk,32,O2690,milk,2024-05-31
+U001,Plain_Yogurt,6,O2860,yogurt,2024-02-15
+U014,Canned_Tomatoes,25,O9147,pantry staples,2024-10-31
+U022,Mozzarella_Cheese,7,O6172,packaged cheese,2024-02-19
+U023,Rice,4,O8772,pantry staples,2024-05-10
+U005,Almond_Milk,16,O9517,milk,2024-02-15
+U003,Rice,50,O8900,pantry staples,2023-12-23
+U027,Skim_Milk,40,O1631,milk,2024-02-04
+U004,Low_Fat_Yogurt,43,O5742,yogurt,2024-11-23
+U008,Pork_Chops,24,O8454,meat counter,2024-11-22
