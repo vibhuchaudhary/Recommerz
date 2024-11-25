@@ -169,6 +169,7 @@ ORD1054,U021,Chicken_Breast,1,meat counter,2
 ORD1055,U003,Rice,4,pantry staples,1
 ORD1055,U003,Flavored_Yogurt,2,yogurt,2
 ORD1055,U003,Frozen_Pizza,3,frozen foods,3
+ORD1055,U003,Sourdough_Bread,3,bread,4
 ORD1056,U029,Ground_Beef,4,meat counter,1
 ORD1056,U029,Soy_Milk,3,milk,2
 ORD1056,U029,Turkey_Breast,1,poultry counter,3
@@ -190,6 +191,7 @@ ORD1065,U009,Fresh_Broccoli,2,fresh vegetables,1
 ORD1066,U016,Low_Fat_Yogurt,4,yogurt,1
 ORD1067,U009,Fresh_Grapes,3,fresh fruits,1
 ORD1068,U030,Cheddar_Cheese,2,packaged cheese,1
+ORD1069,U023,Sourdough_Bread,1,bread,1
 ORD1069,U023,Fresh_Kale,3,fresh vegetables,2
 ORD1069,U023,Mozzarella_Cheese,2,packaged cheese,3
 ORD1069,U023,Skim_Milk,2,milk,4
@@ -356,6 +358,7 @@ ORD1120,U021,Ciabatta,3,bread,1
 ORD1120,U021,Turkey_Breast,2,poultry counter,2
 ORD1121,U002,Ice_Cream,3,frozen foods,1
 ORD1121,U002,Flavored_Yogurt,4,yogurt,2
+ORD1121,U002,Sourdough_Bread,3,bread,3
 ORD1122,U019,Skim_Milk,1,milk,1
 ORD1122,U019,Frozen_Vegetables,4,frozen foods,2
 ORD1123,U026,Rice,3,pantry staples,1
